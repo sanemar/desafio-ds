@@ -1,6 +1,7 @@
 # Data Science - Primeira análise de dados com Python, Pandas e Matplotlib
 
-## Qual o objetivo deste projeto de Análise de Dados?
+![lampada](https://github.com/user-attachments/assets/d8d1d1ed-fcda-4d17-b836-05f71bd6712c)
+## Qual o objetivo deste projeto de Análise de Dados? 
 
 Este projeto tem como objetivo ajudar o dono de uma rede de lojas chamada Alura Store a identificar qual loja ele deve vender, afim de obter recursos para investir em um novo empreendimento.
 
@@ -9,129 +10,77 @@ Este projeto tem como objetivo ajudar o dono de uma rede de lojas chamada Alura 
 O desafio consiste em analisar os dados de vendas, desempenho e avaliações das 4 lojas fictícias da Alura Store.
 Para isso, foram disponibilizadas 4 planilhas contendo os dados de Produtos, Categorias, Preço, Localização dos Clientes, Formas de Pagamento e Avaliação das Compras, entre outros, em um período de 3 anos, compreendidos entre 2020 e 2022.
 
-## Qual a abordagem solicitada para a realização das análises a serem feitas?
+## Primeiros passos para organizar e iniciar o trabalho de análise dos dados
 
-A cientista de dados responsável deve identificar a loja com menor eficiência e apresentar uma recomendação final baseada na análise dos  dados fornecidos.
-Para isso, foi realizado um estudo prévio das bases forncidas, a fim de identificar padrões de comportamento e desvios. 
-Na sequencia, foram levantados os dados de faturamento de cada uma das 4 lojas, por ano, a saber, 2020, 2021 e 2022, e ao final foram gerados os dados do faturamento total do período completo por loja. 
-Esta análise mostrou que no ano de 2021 houve um aumento no faturamento em comparação com o ano anterior e uma queda no ano de 2022 em comparação com o ano de 2021.
+Eu, como cientista de dados responsável do projeto tenho a missão de identificar a loja com menor eficiência e apresentar uma recomendação final baseada na análise dos  dados fornecidos.
+Para isso, foi realizado um estudo prévio das bases fornecidas, a fim de identificar padrões de comportamento e desvios.
+Após o estudo, foi a carga dos dados para o Colab, ferramenta utilizada para a realização das amostras de dados e geração dos gráficos.
+Foram realizadas as importações e inicialização das bibliotecas necessárias, como o Pandas e a Matplotlib.
+Na sequencia, foram realizadas algumas amostras utilizando os dados fornecidos, através da geração de listas, listas de listas, lista de tuplas e dicionários para agrupar os valores dos somatórios e médias dos dados que foram usados para a montagems dos gráficos.
+
+### Primeiras análises
+
+Através das primeiras dimensões o criadas, foi possível levantar os dados de faturamento de cada uma das 4 lojas, por ano, a saber, 2020, 2021 e 2022, e ao final foram gerados os dados do faturamento total do período completo por loja. 
+Esta análise mostrou que no ano de 2021 houve um aumento no faturamento em comparação com o ano anterior e uma queda no ano de 2022 em comparação com o ano de 2021, conforme o gráfico abaixo:
 
 ![chrome_pY5yEXarzF](https://github.com/user-attachments/assets/1209784f-73de-4a8c-bfaa-d09047ae2b24)
 
-## 
+### Médias obtidas dos pedidos e preço médio por loja
 
-## 
-Ok, vamos analisar os dados das lojas para determinar qual seria a melhor opção para venda, considerando o objetivo do dono de usar o dinheiro para investir em outro negócio.
+Foram levantadas as médias dos pedidos por loja, bem como o preço médio das vendas por loja. Esta visão indica que a loja com maior faturamento através da quantidade de pedidos com valor médio por vendas maior, em comparação com as demais, é mais lucratividade e possui uma base de clientes consolidada. O resultado foi apresentado no gráfico abaixo:
 
-Análise dos Dados:
+![chrome_tUitEeqgT5](https://github.com/user-attachments/assets/06a55a98-5de7-42e4-ae76-9f5de32bcc3e)
 
-Primeiro, vamos carregar os dados de cada loja e consolidá-los para ter uma visão geral.
+### Análise do período mensal de faturamento
 
-Python
+O objetivo desta análise é ter uma visão geral da sazonalidade de vendas das 4 lojas no período total analisado. Escolhi o gráfico de linhas para visualizar os períodos de maior e menor venda por loja.
+O resultado pode ser visto no gráfico abaixo:
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+![chrome_NLvuX21OyM](https://github.com/user-attachments/assets/1375b6a6-6177-437c-ad9c-91206920c85a)
 
-# Carregar os dados de cada loja
-loja_1_df = pd.read_csv("loja_1.csv")
-loja_2_df = pd.read_csv("loja_2.csv")
-loja_3_df = pd.read_csv("loja_3.csv")
-loja_4_df = pd.read_csv("loja_4.csv")
+### Análise das vendas por categoria
 
-# Adicionar uma coluna para identificar a loja
-loja_1_df['Loja'] = 'Loja 1'
-loja_2_df['Loja'] = 'Loja 2'
-loja_3_df['Loja'] = 'Loja 3'
-loja_4_df['Loja'] = 'Loja 4'
+Analisar as categorias com maior e menor venda em cada uma das lojas nos fornece uma visão da preferência dos consumidores, além de identificar quais os itens que garantem um valor médio de vendas.
+Neste primeiro gráfico, podemos identificar que a categoria com maior volume de vendas é a de Eletrônicos.
 
-# Concatenar os DataFrames
-todas_lojas_df = pd.concat([loja_1_df, loja_2_df, loja_3_df, loja_4_df])
+![chrome_4WwGKTvJNo](https://github.com/user-attachments/assets/34d6d5ca-b787-42d9-8ed5-53acbe830ff9)
 
-# Calcular o total de vendas por loja
-total_vendas_por_loja = todas_lojas_df.groupby('Loja')['Preço'].sum()
+Já no segundo gráfico apresentado abaixo, a categoria que se destaca em volume financeiro é de Eletrodomésticos, seguida pela categoria de Eletrônicos.
 
-# Calcular o número total de pedidos por loja
-total_pedidos_por_loja = todas_lojas_df.groupby('Loja'].size()
+![chrome_aCFPnB3rCX](https://github.com/user-attachments/assets/a73e19b4-5082-45e1-857d-25a632ae6eed)
 
-# Calcular o preço médio por loja
-preco_medio_por_loja = todas_lojas_df.groupby('Loja')['Preço'].mean()
 
-# Criar um DataFrame consolidado
-analise_lojas_df = pd.DataFrame({
-    'Total de Vendas': total_vendas_por_loja,
-    'Total de Pedidos': total_pedidos_por_loja,
-    'Preço Médio': preco_medio_por_loja
-})
+### Análise das avaliações por loja
 
-print(analise_lojas_df)
-Interpretação Inicial:
+A planilha recebida continha uma coluna de avaliações recebidas dos clientes, onde constavam números de 1 a 5, sem identificação. Contatamos o cliente para identificar qual a legenda adequada para cada número da coluna, e ficou esclarecido que as seguintes legendas:
 
-A partir da tabela analise_lojas_df, podemos observar:
+1 - Muito ruim    
+2 - Ruim    
+3 - Neutra    
+4 - Boa    
+5 - Muito boa    
 
-Total de Vendas: Indica o faturamento bruto da loja. Lojas com maior faturamento tendem a ser mais valiosas.
-Total de Pedidos: Mostra o volume de transações. Um alto número de pedidos pode indicar uma base de clientes sólida.
-Preço Médio: Fornece uma ideia do ticket médio das vendas, o que pode influenciar a lucratividade.
-Análise Detalhada e Gráficos:
+Desta forma, foi possível realizar a análise comparando a quantidade de avaliações recebidas nas duas principais categorias, a saber: Muito ruim e Muito boa, conforme o gráfico abaixo:
 
-Para uma análise mais aprofundada, vamos criar algumas visualizações e calcular métricas adicionais:
+![chrome_E1ZwoeGjfe](https://github.com/user-attachments/assets/bcb45e7e-e307-4f42-812c-def61fc2e656)
 
-Vendas por Categoria em Cada Loja:
-Python
+Com este gráfico, identificamos que a loja com maior número de avaliações negativas é a loja 1, seguida pela loja 4. Também identificamos que a maior quantidade de avaliações positivas está na loja 3, seguida pela loja 2, conforme resultado da execução da análise:
 
-import matplotlib.pyplot as plt
-import seaborn as sns
+![chrome_k4OTqH4X7h](https://github.com/user-attachments/assets/2466b920-0c44-4e29-9f43-9ec21f8a5577)
 
-# Gráfico de barras: Vendas por Categoria em cada Loja
-plt.figure(figsize=(12, 6))
-sns.barplot(x='Loja', y='Preço', hue='Categoria do Produto', data=todas_lojas_df)
-plt.title('Vendas por Categoria em Cada Loja')
-plt.ylabel('Vendas (R$)')
-plt.xlabel('Loja')
-plt.show()
-* Esse gráfico ajuda a entender quais categorias de produtos são mais rentáveis em cada loja.
-Evolução das Vendas ao Longo do Tempo:
-Python
+### Análise do frete cobrado por loja
 
-# Converter a coluna 'Data da Compra' para datetime
-todas_lojas_df['Data da Compra'] = pd.to_datetime(todas_lojas_df['Data da Compra'], format='%d/%m/%Y')
+A análise do frete considerou apenas a proporcionalidade entre o faturamento total por loja e o percentual do frete cobrado pelas lojas. 
+A análise não considerou qualquer informação relativa a tipos de produtos entregues e distâncias, devido à falta de informações adicionais nas bases.
 
-# Agrupar as vendas por mês e loja
-vendas_mensais_por_loja = todas_lojas_df.groupby(['Loja', pd.Grouper(key='Data da Compra', freq='M')])['Preço'].sum().reset_index()
+O resultado da análise pode ser visualizado no gráfico abaixo:
 
-# Gráfico de linhas: Evolução das Vendas Mensais
-plt.figure(figsize=(12, 6))
-sns.lineplot(x='Data da Compra', y='Preço', hue='Loja', data=vendas_mensais_por_loja)
-plt.title('Evolução das Vendas Mensais por Loja')
-plt.ylabel('Vendas (R$)')
-plt.xlabel('Mês')
-plt.show()
-* Esse gráfico mostra a tendência de vendas de cada loja ao longo do tempo, permitindo identificar se alguma loja está em declínio ou crescimento.
-Avaliação Média das Compras por Loja:
-Python
+![chrome_SAVBKYLLXm](https://github.com/user-attachments/assets/9801f9cd-4d54-4336-8d68-f0b97d508430)
 
-# Gráfico de barras: Avaliação Média das Compras por Loja
-plt.figure(figsize=(8, 5))
-sns.barplot(x='Loja', y='Avaliação da compra', data=todas_lojas_df)
-plt.title('Avaliação Média das Compras por Loja')
-plt.ylabel('Avaliação Média')
-plt.xlabel('Loja')
-plt.show()
-* A avaliação da compra pode indicar a satisfação dos clientes e a qualidade do atendimento em cada loja.
-Análise de Pagamento:
-Python
+# Conclusões
 
-# Contagem de tipos de pagamento por loja
-tipos_pagamento_por_loja = todas_lojas_df.groupby('Loja')['Tipo de pagamento'].value_counts().unstack(fill_value=0)
-print("\nTipos de Pagamento por Loja:\n", tipos_pagamento_por_loja)
-
-# Porcentagem de cada tipo de pagamento por loja
-tipos_pagamento_por_loja_perc = tipos_pagamento_por_loja.div(tipos_pagamento_por_loja.sum(axis=1), axis=0)
-print("\nPorcentagem de Tipos de Pagamento por Loja:\n", tipos_pagamento_por_loja_perc)
-* Essa análise mostra como os clientes pagam em cada loja, o que pode indicar a necessidade de ajustar as formas de pagamento oferecidas.
-
-  
-## Recomendação de Venda:
+![relatorio](https://github.com/user-attachments/assets/615e83b3-5d92-466f-aa26-5da5a3c1a86f)
+## Relatório final baseado no resultado das análises:
 
 Com base na análise, a loja que parece ser a melhor candidata para venda é a Loja 4. Ela apresenta o menor total de vendas e o menor preço médio, o que pode indicar um menor potencial de crescimento ou lucratividade em comparação com as outras lojas.
 
