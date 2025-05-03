@@ -2,16 +2,18 @@
 
 ## Qual o objetivo deste projeto de Análise de Dados?
 
-Este projeto tem como objetivo é ajudar o dono de uma rede de lojas a identificar qual delas ele deverá vender, afim de obter recursos para investir em outro negócio.
+Este projeto tem como objetivo ajudar o dono de uma rede de lojas chamada Alura Store a identificar qual loja ele deve vender, afim de obter recursos para investir em um novo empreendimento.
 
 ## Quais os componentes utilizados para a realização da Análise de Dados?
 
-Foram disponibilizadas 4 planilhas contendo os dados de Produtos, Categorias, Preço, Localização dos Clientes, Formas de Pagamento e Avaliação das Compras, em um período de 3 anos, entre 2020 e 2022.
+O desafio consiste em analisar os dados de vendas, desempenho e avaliações das 4 lojas fictícias da Alura Store.
+Para isso, foram disponibilizadas 4 planilhas contendo os dados de Produtos, Categorias, Preço, Localização dos Clientes, Formas de Pagamento e Avaliação das Compras, entre outros, em um período de 3 anos, compreendidos entre 2020 e 2022.
 
 ## Qual a abordagem solicitada para a realização das análises a serem feitas?
 
-Foi realizado um estudo das bases, a fim de identificar padrões de comportamento e desvios. 
-Na sequencia, foram levantados os dados de faturamento de cada uma das 4 lojas, por ano, a saber, 2020, 2021 e 2022, e o no final foram gerados os dados do faturamento total do período completo por loja. 
+A cientista de dados responsável deve identificar a loja com menor eficiência e apresentar uma recomendação final baseada na análise dos  dados fornecidos.
+Para isso, foi realizado um estudo prévio das bases forncidas, a fim de identificar padrões de comportamento e desvios. 
+Na sequencia, foram levantados os dados de faturamento de cada uma das 4 lojas, por ano, a saber, 2020, 2021 e 2022, e ao final foram gerados os dados do faturamento total do período completo por loja. 
 Esta análise mostrou que no ano de 2021 houve um aumento no faturamento em comparação com o ano anterior e uma queda no ano de 2022 em comparação com o ano de 2021.
 
 ![chrome_pY5yEXarzF](https://github.com/user-attachments/assets/1209784f-73de-4a8c-bfaa-d09047ae2b24)
