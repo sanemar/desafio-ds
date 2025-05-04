@@ -82,14 +82,54 @@ O resultado da análise pode ser visualizado no gráfico abaixo:
 ![relatorio](https://github.com/user-attachments/assets/615e83b3-5d92-466f-aa26-5da5a3c1a86f)
 ## Relatório final baseado no resultado das análises:
 
-Com base na análise, a loja que parece ser a melhor candidata para venda é a Loja 4. Ela apresenta o menor total de vendas e o menor preço médio, o que pode indicar um menor potencial de crescimento ou lucratividade em comparação com as outras lojas.
+Com base no resultados das dimensões criadas a partir das análises feitas e dos gráficos apresentados, conclui que a loja que parece ser a melhor candidata para venda é a Loja 4. Ela apresenta o menor volume de vendas e o menor preço médio, o que pode indicar um menor potencial de crescimento ou lucratividade em comparação com as outras lojas nos próximos anos.
+As análises evidenciam que a loja 4 apresentou um faturamento total menor comparado às demais lojas:
 
-Como apresentar ao cliente:
+![chrome_XsggOEnOAg](https://github.com/user-attachments/assets/007e3295-21b0-4fc3-a705-81a40b64fc91)
 
-Resumo Inicial: Apresente a tabela analise_lojas_df para dar uma visão geral do desempenho das lojas.
-Gráfico de Vendas por Categoria: Explique quais categorias são mais fortes em cada loja e se há alguma que está performando mal na Loja 4.
-Gráfico de Evolução das Vendas: Mostre a tendência de vendas ao longo do tempo, destacando se a Loja 4 está em declínio ou estagnada.
-Gráfico de Avaliação Média: Compare a satisfação dos clientes entre as lojas. Se a Loja 4 tiver uma avaliação mais baixa, isso pode reforçar a decisão de vendê-la.
-Análise de Pagamento: Apresente os dados sobre os tipos de pagamento, mostrando se a Loja 4 está perdendo vendas por não oferecer opções de pagamento adequadas.
-Conclusão: Recomende a venda da Loja 4, justificando a decisão com os dados e gráficos apresentados.
+![chrome_SlQZaXiYdL](https://github.com/user-attachments/assets/34e398f6-8690-41aa-a8f1-7813729abb9f)
+
+![chrome_yX9s8AiOLB](https://github.com/user-attachments/assets/5789875e-679c-4fa1-84ab-10a9aef94aa4)
+
+![chrome_KY9UNc4Gy8](https://github.com/user-attachments/assets/d7ca8f21-0830-49be-a96f-8c3b01e58b7b)
+
+
+Abaixo, segue o valor do preço médio por loja, e novamente a loja 4 apresenta o menor ticket médio de vendas:
+
+![chrome_WIVLZ82kjX](https://github.com/user-attachments/assets/d15b31e5-d7ba-4652-90cd-b77e812d03ef)
+
+Analisando visualmente o gráfico que mostra o total de vendas por categorias em cada loja, percebemos que a loja 4 não performa bem nas categorias que mais vende nas demais lojas
+
+![chrome_8lqkMY4SHZ](https://github.com/user-attachments/assets/af2d097c-7a6d-4457-9c37-793f31a55fad)
+
+A análise de avaliações dos clientes também indicou que a loja 4 está com a segunda posição de pior avaliada, em comparação com as demais lojas.
+As avalições podem fornecer alguns insights interessantes que valeria uma análise mais aprofundada. Tais insights são:
+
+1 - A loja possui produtos de última geração na categoria de eletrônicos?    
+2 - A loja possui produtos com preços competitivos nas categorias eletrônicos e eletrodomésticos?    
+3 - A loja possui um atendimento cativante e vendedores atenciosos?    
+4 - A estrutura da loja é segura, confortável e receptiva?    
+5 - A loja possui diversidade de meios de pagamento que facilitem a compra?    
+6 - A loja faz promoções e divulgação dos seus produtos de forma adequada?    
+7 - A loja cumpre com os prazos de entrega acordados com seus clientes?    
+8 - A loja entrega os produtos vendidos corretamente e em boas condições?    
+9 - A loja oferece algum serviço de pós venda aos seus clientes?    
+10 - A loja sabe fidelizar o cliente?    
+
+Outro ponto de reflexão sobre o resultado das análises. Sabemos que o dono da loja precisa decidir qual loja vender para adquirir o valor para um novo empreendimento. A pergunta que fica é: A venda pedido na venda da loja com menor faturamento será o valor necessário para o novo empreendimento, pois talvez ele não consiga vender tal loja por um valor adequado.
+Algumas hipóteses levantadas para tal indagação são:
+
+1 - A loja está bem localizada?    
+2 - A loja possui clientes com renda superior a 1 salário mínimo?    
+3 - A loja possui concorrentes do mesmo porte na mesma região que ela se encontra?    
+4 - A loja possui a formação adequada para o preço de seus produtos?    
+
+
+
+
+
+
+
+
+
 
