@@ -124,12 +124,10 @@ Algumas hipóteses levantadas para tal indagação são:
 3 - A loja possui concorrentes do mesmo porte na mesma região que ela se encontra?    
 4 - A loja possui a formação adequada para o preço de seus produtos?    
 
+### Pessoa desenvolvedora realizadora do projeto
 
+Este projeto foi desenvolvido como parte do programa de treinamento da Oracle One em parceria com a Alura Latam que participo como estudante de Data Science. A ClearSale possui parceira com as empresas Oracle e Alura, e por isso disponibiliza aos seus colaboradores, através do programa ClearOne toda a trilha de treinamento em Data Science pela plataforma da Alura.
 
+Prazer, me chamo Rosane Marchand!
 
-
-
-
-
-
-
+Para me conhecer melhor, segue o meu perfil no Linkedin com detalhes da minha trajetória profissional - https://www.linkedin.com/in/rosane-marchand-analista-qualidade-sr/
