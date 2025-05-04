@@ -82,7 +82,13 @@ O resultado da análise pode ser visualizado no gráfico abaixo:
 ![relatorio](https://github.com/user-attachments/assets/615e83b3-5d92-466f-aa26-5da5a3c1a86f)
 ## Relatório final baseado no resultado das análises:
 
-Com base no resultados das dimensões criadas a partir das análises feitas e dos gráficos apresentados, conclui que a loja que parece ser a melhor candidata para venda é a Loja 4. 
+Este relatório tem como objetivo expor o resultado das análises realizadas utilizando como base os dados de cada uma das lojas, fornecidos através da planilhas fornecidas pelo cliente.
+O objeto da análise é identificar qual loja possui o menor desempenho em termos de faturamento, volume de vendas, categorias de produtos mais e menos vendidos e frete médio cobrado.
+
+Baseados nestas informações preliminares, foram criadas as dimensões necessárias que serviram de base para a geração dos relatórios apresentados em cada ponto analisado abaixo.
+
+#### Faturamento
+
 Considerando o item faturamento total, fiz uma comparação entre as 4 lojas da rede, e as análises evidenciam que a loja 4 apresentou um faturamento total menor comparado às demais lojas:
 
 Loja 1  -> ![chrome_XsggOEnOAg](https://github.com/user-attachments/assets/007e3295-21b0-4fc3-a705-81a40b64fc91)
@@ -93,23 +99,31 @@ Loja 3  -> ![chrome_yX9s8AiOLB](https://github.com/user-attachments/assets/57898
 
 Loja 4  -> ![chrome_KY9UNc4Gy8](https://github.com/user-attachments/assets/d7ca8f21-0830-49be-a96f-8c3b01e58b7b)    
 
+#### Volume de Vendas
 
 Por consequencia, a loja 4 apresenta o menor volume de vendas e o menor preço médio, o que pode indicar um menor potencial de crescimento ou lucratividade em comparação com as outras lojas nos próximos anos. 
 
 ![chrome_6BgG7xKc3i](https://github.com/user-attachments/assets/3e9709d7-cda2-4e06-826e-1c8dbbb0626c)
 
+#### Preço Médio
+
 Abaixo, segue o valor do preço médio por loja, e novamente a loja 4 apresenta o menor ticket médio de vendas:
 
 ![chrome_WIVLZ82kjX](https://github.com/user-attachments/assets/d15b31e5-d7ba-4652-90cd-b77e812d03ef)
 
-Analisando visualmente, o gráfico abaixo mostra o total de vendas (R$) por categorias em cada loja, percebemos que a loja 4 não performa bem nas categorias que mais vende nas demais lojas
+#### Faturamento por categoria
+
+Analisando visualmente, o gráfico abaixo mostra o total de vendas (R$) por categorias em cada loja, percebemos que a loja 4 não performa bem nas categorias que mais vende nas demais lojas, a saber, eletrônicos e eletrodomésticos:
 
 ![chrome_8lqkMY4SHZ](https://github.com/user-attachments/assets/af2d097c-7a6d-4457-9c37-793f31a55fad)
+
+#### Quantidade vendida por categoria
 
 O gráfico abaixo mostra o percentual quantitativo da amostra, não considerando o valor faturado por categoria, o qual é exibido no gráfico acima:
 
 ![chrome_o7I8GKFkUU](https://github.com/user-attachments/assets/203c6191-310a-496d-bb1e-98cfaf09e607)
 
+#### Avaliações dos clientes
 
 A análise de avaliações dos clientes também indicou que a loja 4 está com a segunda posição de pior avaliada, em comparação com as demais lojas.
 
@@ -136,12 +150,17 @@ Algumas hipóteses levantadas para tal indagação são:
 3 - A loja possui concorrentes do mesmo porte na mesma região que ela se encontra?    
 4 - A loja possui a formação adequada para o preço de seus produtos?
 
+#### Frete médio por loja
+
 O frete médio não foi considerado um fator relevante na análise, pois a informação gerada com base no percentual médio cobrado pelo faturamento por loja, não fornece muitos indícios se são ou não aplicáveis na decisão de venda, uma vez que poderíamos considerar outros dados como localização das lojas, volumes dos produtos, quantidades por região, distância, entre outros.
 
 O gráfico abaixo exibe o percentual médio do frete pelo faturamento total no período completo.
 
 ![chrome_F5umeieazl](https://github.com/user-attachments/assets/71b4539c-1624-4c80-aa75-1069f7b7921e)
 
+#### Conclusão da análise
+
+Com base no resultados das dimensões criadas a partir das análises feitas e dos gráficos apresentados acima, bem como a explicação de cada um, conclui que a loja que parece ser a melhor candidata para venda é a Loja 4. 
 
 ### Pessoa desenvolvedora realizadora do projeto
 
