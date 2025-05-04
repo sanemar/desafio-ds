@@ -82,27 +82,39 @@ O resultado da análise pode ser visualizado no gráfico abaixo:
 ![relatorio](https://github.com/user-attachments/assets/615e83b3-5d92-466f-aa26-5da5a3c1a86f)
 ## Relatório final baseado no resultado das análises:
 
-Com base no resultados das dimensões criadas a partir das análises feitas e dos gráficos apresentados, conclui que a loja que parece ser a melhor candidata para venda é a Loja 4. Ela apresenta o menor volume de vendas e o menor preço médio, o que pode indicar um menor potencial de crescimento ou lucratividade em comparação com as outras lojas nos próximos anos.
-As análises evidenciam que a loja 4 apresentou um faturamento total menor comparado às demais lojas:
+Com base no resultados das dimensões criadas a partir das análises feitas e dos gráficos apresentados, conclui que a loja que parece ser a melhor candidata para venda é a Loja 4. 
+Considerando o item faturamento total, fiz uma comparação entre as 4 lojas da rede, e as análises evidenciam que a loja 4 apresentou um faturamento total menor comparado às demais lojas:
 
-![chrome_XsggOEnOAg](https://github.com/user-attachments/assets/007e3295-21b0-4fc3-a705-81a40b64fc91)
+Loja 1  -> ![chrome_XsggOEnOAg](https://github.com/user-attachments/assets/007e3295-21b0-4fc3-a705-81a40b64fc91)
 
-![chrome_SlQZaXiYdL](https://github.com/user-attachments/assets/34e398f6-8690-41aa-a8f1-7813729abb9f)
+Loja 2  -> ![chrome_SlQZaXiYdL](https://github.com/user-attachments/assets/34e398f6-8690-41aa-a8f1-7813729abb9f)
 
-![chrome_yX9s8AiOLB](https://github.com/user-attachments/assets/5789875e-679c-4fa1-84ab-10a9aef94aa4)
+Loja 3  -> ![chrome_yX9s8AiOLB](https://github.com/user-attachments/assets/5789875e-679c-4fa1-84ab-10a9aef94aa4)
 
-![chrome_KY9UNc4Gy8](https://github.com/user-attachments/assets/d7ca8f21-0830-49be-a96f-8c3b01e58b7b)
+Loja 4  -> ![chrome_KY9UNc4Gy8](https://github.com/user-attachments/assets/d7ca8f21-0830-49be-a96f-8c3b01e58b7b)    
 
+
+Por consequencia, a loja 4 apresenta o menor volume de vendas e o menor preço médio, o que pode indicar um menor potencial de crescimento ou lucratividade em comparação com as outras lojas nos próximos anos. 
+
+![chrome_6BgG7xKc3i](https://github.com/user-attachments/assets/3e9709d7-cda2-4e06-826e-1c8dbbb0626c)
 
 Abaixo, segue o valor do preço médio por loja, e novamente a loja 4 apresenta o menor ticket médio de vendas:
 
 ![chrome_WIVLZ82kjX](https://github.com/user-attachments/assets/d15b31e5-d7ba-4652-90cd-b77e812d03ef)
 
-Analisando visualmente o gráfico que mostra o total de vendas por categorias em cada loja, percebemos que a loja 4 não performa bem nas categorias que mais vende nas demais lojas
+Analisando visualmente, o gráfico abaixo mostra o total de vendas (R$) por categorias em cada loja, percebemos que a loja 4 não performa bem nas categorias que mais vende nas demais lojas
 
 ![chrome_8lqkMY4SHZ](https://github.com/user-attachments/assets/af2d097c-7a6d-4457-9c37-793f31a55fad)
 
+O gráfico abaixo mostra o percentual quantitativo da amostra, não considerando o valor faturado por categoria, o qual é exibido no gráfico acima:
+
+![chrome_o7I8GKFkUU](https://github.com/user-attachments/assets/203c6191-310a-496d-bb1e-98cfaf09e607)
+
+
 A análise de avaliações dos clientes também indicou que a loja 4 está com a segunda posição de pior avaliada, em comparação com as demais lojas.
+
+![chrome_RMLSZqutkf](https://github.com/user-attachments/assets/692e0284-4169-4f99-ab76-e6068316c207)
+
 As avalições podem fornecer alguns insights interessantes que valeria uma análise mais aprofundada. Tais insights são:
 
 1 - A loja possui produtos de última geração na categoria de eletrônicos?    
@@ -122,7 +134,14 @@ Algumas hipóteses levantadas para tal indagação são:
 1 - A loja está bem localizada?    
 2 - A loja possui clientes com renda superior a 1 salário mínimo?    
 3 - A loja possui concorrentes do mesmo porte na mesma região que ela se encontra?    
-4 - A loja possui a formação adequada para o preço de seus produtos?    
+4 - A loja possui a formação adequada para o preço de seus produtos?
+
+O frete médio não foi considerado um fator relevante na análise, pois a informação gerada com base no percentual médio cobrado pelo faturamento por loja, não fornece muitos indícios se são ou não aplicáveis na decisão de venda, uma vez que poderíamos considerar outros dados como localização das lojas, volumes dos produtos, quantidades por região, distância, entre outros.
+
+O gráfico abaixo exibe o percentual médio do frete pelo faturamento total no período completo.
+
+![chrome_F5umeieazl](https://github.com/user-attachments/assets/71b4539c-1624-4c80-aa75-1069f7b7921e)
+
 
 ### Pessoa desenvolvedora realizadora do projeto
 
@@ -131,3 +150,7 @@ Este projeto foi desenvolvido como parte do programa de treinamento da Oracle On
 Prazer, me chamo Rosane Marchand!
 
 Para me conhecer melhor, segue o meu perfil no Linkedin com detalhes da minha trajetória profissional - https://www.linkedin.com/in/rosane-marchand-analista-qualidade-sr/
+
+### Créditos
+
+Os ícones utilizados neste documento foram obtidos do site: <a href="https://br.freepik.com/vetores-gratis/apresentacao-azul-e-cinza-cor-icons-set_959361.htm">Imagem de ibrandify no Freepik</a>
